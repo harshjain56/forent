@@ -1,0 +1,192 @@
+nav{
+ display: flex;
+ 
+ justify-content: space-between;
+ padding:10px 20px 10px 25px;
+}
+
+nav>h1{
+   
+   color:white; 
+   font-family: 'Poppins', sans-serif;
+
+}
+
+nav>div{
+  
+    width: 80%;
+    gap:20px;
+    display: flex;
+    align-items: center;
+}
+
+nav > div > input{
+   flex-grow: 9;
+   background-color: #262626;
+   border-radius: 8px;
+   font-family: 'Poppins', sans-serif;
+    color:rgba(255, 255, 255, 0.2);
+    padding: 6px 15px;
+}
+nav>div>button{
+   flex-grow: 1;
+   background-color: #262626;
+   color: rgba(255, 255, 255, 1);
+
+   font-family: 'Poppins', sans-serif;
+   border-radius: 8px;
+   padding: 6px 15px;
+
+}
+
+
+section{
+    margin-top:15px;
+    background-color:rgba(38, 38, 38, 1);
+    padding:25px;
+    border-radius: 20px;
+    margin:10px 20px;
+   }
+section>h2{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    padding:3px;
+}
+.right{
+    
+   
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   gap:20px;
+}
+
+.left{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+   
+}
+
+.item{
+    
+    display: flex;
+    align-items: center;
+    gap:20px;
+     
+
+}
+
+
+.img1{
+   
+    width: 60px;
+    
+    
+}
+.img2{
+    
+   width: 200px;
+   
+   
+}
+
+.button{
+    background-color: rgba(254, 203, 3, 1);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(38, 38, 38, 1);
+    align-self: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+main{
+ 
+    
+   
+    margin:50px 40px;
+
+    
+}
+
+main>h2{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.up{
+  
+   margin: 20px 0 20px 0;
+   gap:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Categories{
+    background-color:rgba(38, 38, 38, 1);
+  
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding:0px;
+    border-radius: 10px;
+    border:  10px solid rgba(38, 38, 38, 1)
+
+}
+.Categories>button{
+   
+    background-color: rgba(254, 203, 3, 1);
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+
+    align-self: end;
+}
+.Categories>p{
+    margin:10px 0 10px 0;
+}
+
+
+.bottom{
+    
+        margin: 20px 0 20px 0;
+        gap:20px;
+         display:flex;
+         justify-content: space-evenly;
+     
+}
+
+.foot{
+  
+    display:flex;
+    
+    background-color:rgba(38, 38, 38, 1);
+    padding: 25px;
+    border-radius: 20px;
+    margin:10px 20px;
+    gap:20px;
+  
+}
+
+.foot>.fo{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.fo>a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
